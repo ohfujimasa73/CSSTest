@@ -42,7 +42,7 @@ namespace ADAS_System
             {
                 SensorName = Name,
                 Value = value, // Simulated value
-                Timestamp = DateTime.Now,
+                Timestamp = DateTime.UtcNow,
             };
         }
     }
@@ -67,7 +67,7 @@ namespace ADAS_System
             {
                 SensorName = Name,
                 Value = value, // Simulated value
-                Timestamp = DateTime.Now,
+                Timestamp = DateTime.UtcNow,
             };
         }
     }
@@ -92,7 +92,7 @@ namespace ADAS_System
             {
                 SensorName = Name,
                 Value = value, // Simulated value
-                Timestamp = DateTime.Now,
+                Timestamp = DateTime.UtcNow,
             };
         }
     }
@@ -102,9 +102,9 @@ namespace ADAS_System
 
         public SensorFactory(){}
 
-        public ISensor Create(String type, String name)
+        public ISensor Create(string type, string name)
         {
-            switch (type.ToLower())
+            switch (type.ToLowerInvariant())
             {
                 case "camera":
                     return new Camera(name);

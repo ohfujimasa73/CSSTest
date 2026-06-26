@@ -25,7 +25,7 @@ class Program
             await sensorMonitor.PollAsync2();
         }
 
-        var average = sensorMonitor.GetAverage("Front Lidar");
-        Console.WriteLine($"Average value for Front Lidar: {average}");
+        var average = sensorMonitor.GetAverage(lidar.Name);
+        Console.WriteLine($"Average value for {lidar.Name}: {average}");
     }
 }   
