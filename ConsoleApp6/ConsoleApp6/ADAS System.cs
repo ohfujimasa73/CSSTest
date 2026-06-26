@@ -27,7 +27,7 @@ namespace ADAS_System
     {
         public string Name { get; private set; }
         public int CheckValue { get; private set; } = 80;
-        public List<int> History { get; set; }
+        public List<int> History { get; }
         public Camera(string name)
         {
             Name = name;
@@ -35,7 +35,7 @@ namespace ADAS_System
         }
         public SensorData Read()
         {
-            int value = new Random().Next(0, 100);
+            int value = Random.Shared.Next(0, 100);
             History.Add(value);
             // Simulate reading sensor data
             return new SensorData
@@ -52,7 +52,7 @@ namespace ADAS_System
         public string Name { get; private set; }
         public int CheckValue { get; private set; } = 150;
 
-        public List<int> History { get; set; }
+        public List<int> History { get; }
         public Radar(string name)
         {
             Name = name;
@@ -60,7 +60,7 @@ namespace ADAS_System
         }
         public SensorData Read()
         {
-            int value = new Random().Next(0, 200);
+            int value = Random.Shared.Next(0, 200);
             History.Add(value);
             // Simulate reading sensor data
             return new SensorData
@@ -77,7 +77,7 @@ namespace ADAS_System
         public string Name { get; private set; }
         public int CheckValue { get; private set; } = 250;
 
-        public List<int> History { get; set; }
+        public List<int> History { get; }
         public Lidar(string name)
         {
             Name = name;
@@ -85,7 +85,7 @@ namespace ADAS_System
         }
         public SensorData Read()
         {
-            int value = new Random().Next(0, 300);
+            int value = Random.Shared.Next(0, 300);
             History.Add(value);
             // Simulate reading sensor data
             return new SensorData

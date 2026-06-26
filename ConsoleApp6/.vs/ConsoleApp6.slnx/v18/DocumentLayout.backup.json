@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\ConsoleApp6\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC (2)\\CSSTest\\ConsoleApp6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2385163-1FC2-6662-B874-7413B6276681}|ConsoleApp6\\ConsoleApp6.csproj|c:\\users\\user\\source\\repos\\consoleapp6\\consoleapp6\\adas system.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2385163-1FC2-6662-B874-7413B6276681}|ConsoleApp6\\ConsoleApp6.csproj|solutionrelative:consoleapp6\\adas system.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2385163-1FC2-6662-B874-7413B6276681}|ConsoleApp6\\ConsoleApp6.csproj|c:\\users\\user\\desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC (2)\\csstest\\consoleapp6\\consoleapp6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2385163-1FC2-6662-B874-7413B6276681}|ConsoleApp6\\ConsoleApp6.csproj|solutionrelative:consoleapp6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2385163-1FC2-6662-B874-7413B6276681}|ConsoleApp6\\ConsoleApp6.csproj|c:\\users\\user\\source\\repos\\consoleapp6\\consoleapp6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2385163-1FC2-6662-B874-7413B6276681}|ConsoleApp6\\ConsoleApp6.csproj|solutionrelative:consoleapp6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2385163-1FC2-6662-B874-7413B6276681}|ConsoleApp6\\ConsoleApp6.csproj|c:\\users\\user\\desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC (2)\\csstest\\consoleapp6\\consoleapp6\\adas system.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2385163-1FC2-6662-B874-7413B6276681}|ConsoleApp6\\ConsoleApp6.csproj|solutionrelative:consoleapp6\\adas system.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ADAS System.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ConsoleApp6\\ConsoleApp6\\ADAS System.cs",
-              "RelativeDocumentMoniker": "ConsoleApp6\\ADAS System.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\ConsoleApp6\\ConsoleApp6\\ADAS System.cs",
-              "RelativeToolTip": "ConsoleApp6\\ADAS System.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC (2)\\CSSTest\\ConsoleApp6\\ConsoleApp6\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp6\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC (2)\\CSSTest\\ConsoleApp6\\ConsoleApp6\\Program.cs",
+              "RelativeToolTip": "ConsoleApp6\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T12:06:03.276Z",
+              "WhenOpened": "2026-06-24T12:03:26.476Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ConsoleApp6\\ConsoleApp6\\Program.cs",
-              "RelativeDocumentMoniker": "ConsoleApp6\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\ConsoleApp6\\ConsoleApp6\\Program.cs",
-              "RelativeToolTip": "ConsoleApp6\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Title": "ADAS System.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC (2)\\CSSTest\\ConsoleApp6\\ConsoleApp6\\ADAS System.cs",
+              "RelativeDocumentMoniker": "ConsoleApp6\\ADAS System.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC (2)\\CSSTest\\ConsoleApp6\\ConsoleApp6\\ADAS System.cs",
+              "RelativeToolTip": "ConsoleApp6\\ADAS System.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAE8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T12:03:26.476Z",
+              "WhenOpened": "2026-06-24T12:06:03.276Z",
               "EditorCaption": ""
             }
           ]

@@ -4,7 +4,7 @@ using ADAS_System;
 
 class Program
 {
-    static void Main(string[] args)
+    static async Task Main(string[] args)
     {
         var alarmSystem = new AlarmSystem();
         var consoleLogger = new ConsoleLogger();
@@ -20,9 +20,10 @@ class Program
         sensorMonitor.AddSensor(lidar);
 
         //sensorMonitor.Poll();
-        sensorMonitor.PollAsync2().Wait();
-        sensorMonitor.PollAsync2().Wait();
-        sensorMonitor.PollAsync2().Wait();
+        for (var i = 0; i < 3; i++)
+        {
+            await sensorMonitor.PollAsync2();
+        }
 
         var average = sensorMonitor.GetAverage("Front Lidar");
         Console.WriteLine($"Average value for Front Lidar: {average}");
