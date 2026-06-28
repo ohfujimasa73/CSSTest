@@ -1,6 +1,6 @@
 ﻿
 using System;
-using ADAS_System;
+using ADAS_Fusion;
 
 class Program
 {
@@ -22,10 +22,8 @@ class Program
         //sensorMonitor.Poll();
         for (var i = 0; i < 3; i++)
         {
-            await sensorMonitor.PollAsync2();
+            using var cts = new CancellationTokenSource(TimeSpan.FromSeconds(1));
+            await sensorMonitor.PollAll(cts.Token);
         }
-
-        var average = sensorMonitor.GetAverage(lidar.Name);
-        Console.WriteLine($"Average value for {lidar.Name}: {average}");
     }
 }   
