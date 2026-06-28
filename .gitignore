@@ -1,0 +1,4 @@
+# 下記フォルダは要らない
+/ConsoleApp6/obj/
+/ConsoleApp6/bin/
+/.vs/
